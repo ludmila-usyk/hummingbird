@@ -1,0 +1,93 @@
+.project-title {
+    margin-left: 115px;
+    margin-right: 115px;
+    margin-bottom: 65px;
+    @media (max-width: 767px) {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 30px;
+    } 
+    .project-header-section {
+        display: flex;
+        margin-bottom: 57px;
+        @media (max-width: 1599px) {
+                display: block;
+                margin-bottom: 20px;
+        }
+        .project-header {
+            padding-left: 91px;
+            @media (max-width: 1599px) {
+                padding-left: 0;
+        }            
+            .project-header_title {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 58px;
+                margin-bottom: 26px;
+                @media (max-width: 1599px) {
+                    line-height: 58px;
+                    margin-bottom: 14px;
+                }
+            }
+            .project-header_text {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
+    }
+    .project-footer-section {
+        display: flex;
+        @media (max-width: 1599px) {
+            display: block;
+    }  
+        .project-footer {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            width: 40%;
+            margin-right: 83px;
+            @media (max-width: 1599px) {
+                width: 100%;
+                margin-right: 0;
+            }  
+        }
+        .project-footer_img {
+            position: relative;
+            .img-bg {
+                position: absolute;
+                top: -57px;
+                right: -238px;
+                z-index: -1;
+                @media (max-width: 1599px) {
+                    top: -25px;
+                    left: 90px;
+                } 
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1599px) {
+    .project-img {
+        width: 100%;;
+    }
+    .project-header-section {
+        display: block;
+        margin-bottom: 45px;
+    }
+}
+
+.project-footer {
+    margin-right: 40px;
+}
+
+.img-bg {
+    display: none;
+    @media (min-width: 767px) {
+    top: -40px;
+    right: -90px;
+    }    
+}

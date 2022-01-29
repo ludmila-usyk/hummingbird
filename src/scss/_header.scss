@@ -1,0 +1,63 @@
+.list:not(:first-child) {
+    margin-left: 8px;
+
+    @media screen and (min-width: 768px) {
+        margin-left: 14px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        margin-left: 32px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    @media screen and (min-width: 1280px) {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 115px;
+        margin-right: 115px;
+        align-items: center;
+    }
+}
+
+.list {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 8px;
+
+    @media screen and (min-width: 1280px) {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+  
+.nav-list {
+display: flex;
+}
+
+.header {
+    display: flex;
+}
+
+.country {
+    margin-left: 32px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,156 @@
+#about-us {
+    height: 720px;
+    margin-bottom: 44px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/hero.png);
+
+    @media screen and (min-width: 1200px) and (max-width: 1499px)  {
+        height: 600px;
+    }
+
+    @media screen and (min-width: 980px) and (max-width: 1199px)  {
+        height: 500px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 979px)  {
+        height: 400px;
+    }
+
+    @media screen and (min-width: 580px) and (max-width: 767px) {
+        height: 300px;
+        background-image: url(../images/hero07.png);
+        background-size: cover;
+        margin-bottom: 24px;
+    }
+
+    @media screen and (max-width: 579px) {
+        height: 270px;
+        background-image: url(../images/hero05.png);
+        background-size: contain;
+        margin-bottom: 20px;
+    }
+}
+
+.hero {
+    padding-top: 20px;
+    padding-left: 40px;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        padding-top: 80px;
+        padding-left: 70px;
+    }
+
+    @media screen and (min-width: 1200px) and (max-width: 1599px) {
+        padding-top: 150px;
+        padding-left: 100px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        padding-top: 212px;
+        padding-left: 115px;
+    }
+}
+
+.hero-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-right: 140px;
+    padding-bottom: 12px;
+
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        font-size: 14px;
+        padding-right: 320px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        font-size: 28px;
+        padding-right: 400px;
+        padding-bottom: 18px;
+    }
+
+    @media screen and (min-width: 1200px) and (max-width: 1599px) {
+        font-size: 38px;
+        padding-right: 680px;
+        padding-bottom: 22px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        font-size: 46px;
+        padding-right: 965px;
+        padding-bottom: 24px;
+    }
+}
+
+.hero-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-right: 160px;
+    padding-bottom: 10px;
+
+    @media screen and (min-width: 480Px) and (max-width: 767px) {
+        font-size: 10px;
+        padding-right: 340px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        font-size: 18px;
+        padding-right: 400px;
+        padding-bottom: 18px;
+    }
+
+    @media screen and (min-width: 1200px) and (max-width: 1599px) {
+        font-size: 22px;
+        padding-right: 800px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        font-size: 28px;
+        padding-right: 1099px;
+    }
+}
+
+.hero-button {
+    width: 68px;
+    height: 20px;
+    background: #FE9A22;
+    border: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        width: 50px;
+        height: 26px;
+        font-size: 14px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        width: 80px;
+        height: 42px;
+        font-size: 18px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-weight: 600;
+        font-size: 24px;
+        width: 127px;
+        height: 50px;
+    }
+}
