@@ -1,28 +1,31 @@
 {
-  "name": "parcel-deploy",
-  "version": "1.0.0",
+  "name": "parcel-project-template",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/ludmila-usyk/hummingbird",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/*.index.html --public-url /hummingbird/",
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /hummingbird/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/parcel-deploy-tutorial.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/luxplanjay/parcel-deploy-tutorial/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
-  "homepage": "https://github.com/ludmila-usyk/hummingbird",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
+    "gh-pages": "^3.2.3",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1",
-    "sass": "^1.45.1"
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
   }
 }
