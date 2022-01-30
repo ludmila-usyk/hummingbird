@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/luxplanjay/parcel-deploy-tutorial/issues"
   },
-  "homepage": "https://luxplanjay.github.io/parcel-deploy-tutorial",
+  "homepage": "https://github.com/ludmila-usyk/hummingbird",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-nuke-dist": "^1.0.1",
