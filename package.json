@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://github.com/ludmila-usyk/den-page",
+  "homepage": "https://github.com/ludmila-usyk/hummingbird",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /den-page/",
+    "build": "parcel build src/*.html --public-url /hummingbird/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
